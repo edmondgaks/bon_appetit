@@ -50,7 +50,6 @@ nav .other-nav li {
 
 .middle-nav {
     padding-right: 1rem;
-    /* transform: translate(60%,20%); */
 }
 
 nav ul li:first-child {
@@ -59,9 +58,7 @@ nav ul li:first-child {
 nav ul li:nth-child(5) {
     margin-right: 15rem;
 }
-/* nav ul li:last-child {
-    transform: translate(80%,20%);
-} */
+
 
 ul li a {
     text-decoration: none;
@@ -79,9 +76,9 @@ ul li a {
     padding-top: 1%;
     padding-left: 3%;
     width: 100%;
+    z-index: 1;
     background-color: rgba(255, 255 ,255 , 0.98);
     box-shadow: 0 2px 2px #858484;
-    /* z-index: 9999; */
 }
 .sticky .main-nav {
     float: right;
@@ -98,7 +95,7 @@ ul li a {
     position: absolute;
     width: 100%;
     top: 50%;
-    left: 60%;
+    left: 55%;
     transform: translate(-45%,-20%);
 }
 
@@ -140,7 +137,7 @@ ul li a {
     height: 0.12rem;
     background-color: black;
     margin: 1rem auto 0;
-    transform: translate(30px);
+    transform: translate(1px);
 }
 .long-copy {
     padding-left: 10%;
@@ -156,20 +153,17 @@ ul li a {
 }
 .section-services .box-service {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     margin: 30px 0 0px 30px;
 }
 
+.re-img {
+    height: 70%;
+    overflow-y: hidden;
+}
 
 
-/* .re-img {
-    width: 100%;
-} */
-/* width: 100%;
-    height: 50%;
-    overflow: hidden;
-} */
 .re-img img {
     width: 100%;
     height: 100%;
@@ -177,14 +171,13 @@ ul li a {
 
 }
 .col .service-box{
-    /* flex: 4; */
     border-radius: 10px;
     width: 100%;
     background-color: #ffffff;
     padding: 5%;
     box-shadow: 0 2px 2px #e6e3e3;
 }
-.col img {
+.col .family-img {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -192,7 +185,7 @@ ul li a {
 .col:hover {
     opacity: 1;
     transform: scale(1.01);
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 /*---------------------------*/
@@ -274,7 +267,6 @@ ul li a {
 
 .section-recipes .col {
     width: 25%;
-    /* z-index: -1; */
     margin: 10px;
     justify-content: center;
     
@@ -299,36 +291,8 @@ ul li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* overflow: hidden; */
-    /* 9 */
+    
 }
-
-
-/* .section-recipes img {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    transform: scale(1);
-    transition: transform 1s, opacity 1s;
-}
-.section-recipes img:hover {
-    opacity: 1;
-    transform: scale(1.1);
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-} */
-
-/*---------------------------*/
-/*------section-night-------*/
-/*----------------------------*/
-/* 
-
-.section-night {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.85)), url(../img/party.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-    height: 50vh;
-} */
 
 
 /*---------------------------*/
@@ -356,21 +320,16 @@ ul li a {
 
 .section-new .div-divide {
     display: flex;
-    /* width: 100%; */
     border-radius: 20px;
     width: 80%;
     background-color: #fff;
     color: #000;
     height: 400px;
-    /* height: 40%; */
-    /* padding: 5%;
-    padding: 5%; */
     margin-left: 10%;
     margin-bottom: 3%;
 }
 .new-span {
     width: 50%;
-    /* padding: 5%; */
     overflow: hidden;
 }
 
@@ -419,8 +378,6 @@ ul li a {
 
 .section-scenes .scenes-teach {
     border-radius: 20px;
-    /* height: 90%;
-    width: 80%; */
     margin-left: 11rem;
     margin-bottom: 4rem;
     background-color: #fff;
@@ -445,7 +402,6 @@ ul li a {
 .div-teach .divto-teach {
     width: 50%;
     overflow-y: hidden;
-    /* height: 80%; */
 }
 .divto-teach img {
     width: 100%;
@@ -473,7 +429,6 @@ ul li a {
     width: 2.5rem;
     background-color: #000000;
     margin-left: 49%;
-    /* margin-top: 0rem; */
     margin-bottom: 2%;
 }
 
@@ -486,19 +441,14 @@ ul li a {
 }
 .container-customer {
     display: flex;
-    /* width: 60%; */
     border-radius: 20px;
     width: 60%;
-    /* width: 80%; */
     background-color: #da9452;
     color: #ffffff;
     height: 40%;
     margin-left: 14rem;
     margin-bottom: 3rem;
-    /* padding-left: 5%;
-    padding-bottom: 5%; */
-    /* margin-left: 10%;
-    margin-bottom: 3%; */
+    
 }
 
 .container-customer .col {
@@ -507,9 +457,7 @@ ul li a {
     margin: 10px;
     justify-content: center;
 }
-/* .customer-space {
-    margin-top: ;
-} */
+
 
 
 .plans-flex {
@@ -587,9 +535,6 @@ ul li a {
     margin-left: 24rem;
     margin-top: 2rem;
     box-shadow: 0 2px 2px #efefef;
-}
-.promotion {
-    background-image: url(img/party.jpg);
 }
 
 

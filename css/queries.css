@@ -1,16 +1,16 @@
 
 /* * Big tablet to 1200px (widths smaller taht the 1141px row) */
-/* @media only screen and (max-width:1200px) {
+@media only screen and (max-width:1200px) {
     nav ul li:first-child {
         margin-right: 12rem;
     }
     nav ul li:nth-child(5) {
         margin-right: 12rem;
     }
-} */
+}
 
 /* Small tablets to big tablets : from 768 to 1023 */
-/* @media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
     nav ul li:first-child {
         margin-right: 9rem;
     }
@@ -74,5 +74,5 @@
 } 
 
 
- */
+
 
